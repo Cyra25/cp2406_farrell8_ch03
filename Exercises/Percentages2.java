@@ -7,6 +7,7 @@ public class Percentages2 {
         String secondMessage = JOptionPane.showInputDialog(null, "Please enter second number");
         double secondNum = Double.parseDouble(secondMessage);
         computerPercent(firstNum,secondNum);
+        computerPercent(secondNum, firstNum);
     }
 
     public static void computerPercent(double firstNum, double secondNum){
