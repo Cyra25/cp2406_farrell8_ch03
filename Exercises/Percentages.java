@@ -3,6 +3,7 @@ public class Percentages {
         double firstNum = 7.7;
         double secondNum = 8.8;
         computerPercent(firstNum,secondNum);
+        computerPercent(secondNum, firstNum);
     }
 
     public static void computerPercent(double firstNum, double secondNum){
